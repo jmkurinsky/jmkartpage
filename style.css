@@ -34,7 +34,7 @@ nav a {
 
 .bars {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .bar {
