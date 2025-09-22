@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  background: url("white-abstract-texture-background.jpg") no-repeat center center fixed;
+  background: url("paper-texture-background.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -40,10 +40,7 @@ nav a {
 .bar {
   width: 150px;
   height: 400px;
-  background: url("white-abstract-texture-background.jpg");
-  background-size: 100px;
-  background-repeat: repeat;
-  background-position: center;
+  background: #e6e6e6;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   display: flex;
   justify-content: center;
