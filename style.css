@@ -11,6 +11,8 @@
 nav a {
   font-family: "jmk-script-regular", sans-serif;
   font-size: 18px;
+  display: flex;
+  align-items: center;
   text-decoration: none;
   margin-left: 20px;
   color: #000000;
