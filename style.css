@@ -41,7 +41,7 @@ nav a {
 }
 
 .bar {
-  width: 60vw;
+  width: auto;
   height: 50vh;
   background: #e6e6e6;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
