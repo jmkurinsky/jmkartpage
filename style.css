@@ -41,12 +41,12 @@ nav a {
 }
 
 .bar {
-  width: auto;
-  height: 50%;
+  width: 12vw;
+  height: auto;
   max-width: 200px;
   background: #e6e6e6;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   overflow: hidden;
