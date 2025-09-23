@@ -1,11 +1,11 @@
 @font-face {
   font-family: "jmk-script-regular";
-  src: url("fonts/jmk-script regular.ttf") format("ttf");
+  src: url("fonts/jmk-script-regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "jmk-script-bold";
-  src: url("fonts/jmk-script-bold.ttf") format("ttf");
+  src: url("fonts/jmk-script-bold.ttf") format("truetype");
 }
 
 nav a {
@@ -19,9 +19,8 @@ nav a {
   transition: color 0.3s ease;
 }
 
-/* Highlight the active page link */
 nav a.active {
-  font-family: "MyFontBold", sans-serif;
+  font-family: "jmk-script-bold", sans-serif;
   font-weight: bold;
 }
 
