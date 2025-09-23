@@ -8,6 +8,10 @@
   src: url("fonts/jmk-script-bold.ttf") format("truetype");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   position: fixed;
   top: 0;
