@@ -8,6 +8,21 @@
   src: url("fonts/jmk-script-bold.ttf") format("truetype");
 }
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 20px;
+  transition: background 0.5s ease;
+  z-index: 1000;
+  background: transparent;
+}
+
+header.scrolled {
+  background: #e6e6e6;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
 nav a {
   font-family: "jmk-script-regular", sans-serif;
   font-size: 18px;
