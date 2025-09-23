@@ -8,6 +8,21 @@
   src: url("fonts/jmk-script-bold.ttf") format("ttf");
 }
 
+nav a {
+  font-family: "jmk-script-regular", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 20px;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+/* Highlight the active page link */
+nav a.active {
+  font-family: "MyFontBold", sans-serif;
+  font-weight: bold;
+}
+
 body {
   margin: 0;
   height: 100vh;
