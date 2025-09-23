@@ -14,7 +14,10 @@ header {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.logo {
+.logo img {
+  max-width: 150 px;
+  width: 5%;
+  height: auto;
   cursor: pointer;
   font-size: 24px;
 }
